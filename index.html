@@ -18,7 +18,7 @@
             <img src="https://img.redbull.com/images/c_limit,w_1500,h_1000/f_auto,q_auto/redbullcom/2022/8/1/ksfga6rlx2ugfhjd9vnk/league-of-legends"
                     alt="League of Legends" class="hero-image">
             <div class="hero-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/1UzvWG1xcTo" 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vzHrjOMfHPY" 
                         title="League of Legends - Cinematic Trailer" frameborder="0" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                         allowfullscreen class="trailer-video">
@@ -30,6 +30,23 @@
                 se combinan para crear experiencias épicas de combate 5v5.
             </p>
         </header>
+
+        <!-- Sección de Trivia -->
+        <section class="trivia-section">
+            <h2>🧠 Pon a Prueba tu Conocimiento</h2>
+            <p>
+                ¿Eres un verdadero conocedor de League of Legends? Demuestra tus conocimientos 
+                con nuestra trivia especializada sobre campeones, mecánicas de juego y la historia de LoL.
+            </p>
+            <div class="trivia-cta">
+                <button id="start-button" class="trivia-button">
+                    🎯 ¡Comenzar Trivia!
+                </button>
+                <p class="trivia-note">
+                    <em>5 preguntas desafiantes sobre League of Legends</em>
+                </p>
+            </div>
+        </section>
 
         <main class="content">
             <section class="intro-section">
@@ -116,22 +133,22 @@
                 <div class="modes-grid">
                     <div class="mode-card">
                         <h3>🏆 Clasificatoria</h3>
-                        <img src="https://nexus.leagueoflegends.com/wp-content/uploads/2018/10/Challenger_touchup_vtauxp1g1o6fq7akrfwy.png" alt="Modo Clasificatoria" class="mode-image">
+                        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Janna_0.jpg" alt="Modo Clasificatoria" class="mode-image">
                         <p>El modo competitivo principal donde los jugadores compiten por subir de rango y alcanzar el Challenger.</p>
                     </div>
                     <div class="mode-card">
                         <h3>🎮 Normal</h3>
-                        <img src="https://interfaceingame.com/wp-content/uploads/league-of-legends/league-of-legends-match-found.jpg" alt="Modo Normal" class="mode-image">
+                        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Lux_0.jpg" alt="Modo Normal" class="mode-image">
                         <p>Partidas casuales para practicar, probar nuevos campeones o jugar con amigos sin presión competitiva.</p>
                     </div>
                     <div class="mode-card">
                         <h3>⚡ ARAM</h3>
-                        <img src="https://img.redbull.com/images/q_auto,f_auto/redbullcom/2017/05/05/1331856442274_3/todos-aleatorios-y-todos-al-centro-sin-pensar" alt="Mapa ARAM" class="mode-image">
+                        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Teemo_0.jpg" alt="Mapa ARAM" class="mode-image">
                         <p>All Random All Mid: partidas rápidas en un mapa lineal donde todos los campeones son aleatorios.</p>
                     </div>
                     <div class="mode-card">
                         <h3>🏁 URF</h3>
-                        <img src="https://nexus.leagueoflegends.com/wp-content/uploads/2019/10/LOL_CMS_308_Tile_01-Feature_H50-V50-min_jofavih5pb7yykeo8rcm.jpg" alt="Modo URF" class="mode-image">
+                        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Jinx_0.jpg" alt="Modo URF" class="mode-image">
                         <p>Ultra Rapid Fire: modo especial con habilidades sin costo de maná y cooldowns reducidos.</p>
                     </div>
                 </div>
@@ -228,17 +245,17 @@
                 <div class="community-features">
                     <div class="feature-item">
                         <h3>🎨 Arte y Música</h3>
-                        <img src="https://i.ytimg.com/vi/POGzo9TKEUw/maxresdefault.jpg" alt="Arte y música de League of Legends" class="community-image">
+                        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=200&fit=crop&crop=center" alt="Arte y música de League of Legends" class="community-image">
                         <p>Riot Games es conocido por su excelente arte conceptual, música épica y animaciones cinematográficas.</p>
                     </div>
                     <div class="feature-item">
                         <h3>📺 Contenido Creativo</h3>
-                        <img src="https://www.industriaanimacion.com/wp-content/uploads/2021/01/Cover-15.jpg" alt="Contenido creativo" class="community-image">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=200&fit=crop&crop=center" alt="Contenido creativo" class="community-image">
                         <p>Streamers, YouTubers y creadores de contenido generan millones de horas de entretenimiento.</p>
                     </div>
                     <div class="feature-item">
                         <h3>🎓 Aprendizaje</h3>
-                        <img src="https://i.ytimg.com/vi/vR9BFQgoYfs/maxresdefault.jpg" alt="Aprendizaje y guías" class="community-image">
+                        <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=200&fit=crop&crop=center" alt="Aprendizaje y guías" class="community-image">
                         <p>Guías, tutoriales y análisis de partidas ayudan a los jugadores a mejorar constantemente.</p>
                     </div>
                 </div>
@@ -265,12 +282,33 @@
         </footer>
     </div>
 
-    <script>
-        // Script simple sin efectos de movimiento
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('Página cargada correctamente');
-        });
-    </script>
+    <!-- Modal de Trivia -->
+    <div id="trivia-modal" class="trivia-modal">
+        <div class="trivia-modal-content">
+            <div class="trivia-header">
+                <h2>🧠 Trivia de League of Legends</h2>
+                <button id="close-trivia" class="close-button">&times;</button>
+            </div>
+            
+            <div id="trivia-container" class="trivia-container">
+                <!-- El contenido de la trivia se cargará aquí dinámicamente -->
+            </div>
+            
+            <div id="trivia-results" class="trivia-results" style="display: none;">
+                <h3>🎉 ¡Trivia Completada!</h3>
+                <div class="score-display">
+                    <p id="final-score">Puntuación: 0/5</p>
+                    <p id="score-message">¡Sigue practicando!</p>
+                </div>
+                <div class="trivia-actions">
+                    <button id="restart-trivia" class="trivia-button">🔄 Jugar de Nuevo</button>
+                    <button id="close-results" class="trivia-button secondary">❌ Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="trivia.js"> </script>
 
 </body>
 
