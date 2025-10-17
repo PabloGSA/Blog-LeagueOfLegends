@@ -1,87 +1,87 @@
 // 1. DATOS DE LAS PREGUNTAS
 var questions = [
     { 
-        question: "¿Cuál fue el primer campeón que se lanzó en League of Legends?",
+        question: "¿Cuál es el objetivo principal del juego?",
         answers: [
             {
-                description: "Ryze",
-                value: 1,
-            },
-            {
-                description: "Singed",
+                description: "Obtener oro de los minions",
                 value: 0,
             },
             {
-                description: "Ashe",
+                description: "Destruir el nexo enemigo",
+                value: 1,
+            },
+            {
+                description: "Hacerle daño a los enemigos",
                 value: 0,
             },
         ],
     },
     {
-        question: "¿Cuál de los siguientes campeones no utiliza maná como recurso?",
+        question: "¿Qué tipo de juego es League of Legends?",
         answers: [
             {
-                description: "Garen",
+                description: "Es un MOBA (Multiplayer Online Battle Arena)",
                 value: 1,
             },
             {
-                description: "Ezreal",
+                description: "Es un MMORPG no lineal",
                 value: 0,
             },
             {
-                description: "Orianna",
+                description: "Es un Tactical Shooter",
                 value: 0,
             },
         ],
     },
     {
-        question: "¿Cómo se llama el mapa principal donde se juegan las partidas clasificatorias?",
+        question: "¿Cuales son los campeones tanques?",
         answers: [
             {
-                description: "Bosque Retorcido",
+                description: "Alta movilidad y daño",
                 value: 0,
             },
             {
-                description: "Grieta del Invocador",
+                description: "Daño a distancia constante",
+                value: 0,
+            },
+            {
+                description: "Alta resistencia y control de masas",
                 value: 1,
-            },
-            {
-                description: "Abismo de los Lamentos",
-                value: 0,
             },
         ],
     },
     {
-        question: "¿Cuál es el rol principal de Thresh?",
+        question: "¿Cuál es el modo de juego donde puedes subir de rango?",
         answers: [
             {
-                description: "Tirador",
+                description: "URF",
                 value: 0,
             },
             {
-                description: "Apoyo",
+                description: "Casual",
+                value: 0,
+            },
+            {
+                description: "Clasificatoria",
                 value: 1,
-            },
-            {
-                description: "Jungla",
-                value: 0,
             },
         ],
     },
     {
-        question: "¿Qué monstruo épico otorga una mejora de poder global al ser derrotado?",
+        question: "¿Como se llama la liga en donde juega el famoso jugador Faker?",
         answers: [
             {
-                description: "Dragón",
+                description: "LPL",
                 value: 0,
             },
             {
-                description: "Barón Nashor",
+                description: "LTA",
+                value: 0,
+            },
+            {
+                description: "LCK",
                 value: 1,
-            },
-            {
-                description: "Heraldo de la Grieta",
-                value: 0,
             },
         ],
     },
